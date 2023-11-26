@@ -1,0 +1,43 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+.header{
+   &__inner{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 120px;
+   }
+   &__btn{
+     background-color: transparent;
+     border: none;
+     padding: 0;
+     cursor: pointer;
+   }
+}
+.menu{
+   padding-left: 35px;
+   padding-right: 60px;
+   &__list{
+      display: flex;
+   }
+   &__list-item + &__list-item {
+      padding-left: 80px;
+   }
+   &__list-link{
+      color: inherit;
+      @extend %title-font;
+      color: #363838E6;
+      line-height: 22px;
+   }
+}
+.logo{
+   margin: 0 auto;
+}
+
+/* 54-00 */
+
+
