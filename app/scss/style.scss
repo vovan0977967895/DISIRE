@@ -37,7 +37,18 @@
 .logo{
    margin: 0 auto;
 }
+.footer{
+   &__content{
 
-/* 54-00 */
+   }
+   &__copyright{
+      background-color: $title;
+      text-align: center;
+      color: #A1A1A1;
+      padding: 42px 10px;
+   }
+}
+
+/* 1-20 */
 
 
